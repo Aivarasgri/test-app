@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Car from './my-git-playground/application';
+import Car from './my-git-playground/navBar';
 
 function App() {
   return (
