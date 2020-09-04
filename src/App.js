@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Footer from './my-git-playground/footer';
 import NavBar from './my-git-playground/navBar';
 
 function App() {
