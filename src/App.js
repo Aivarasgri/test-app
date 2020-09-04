@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Car from './my-git-playground/navBar';
+import NavBar from './my-git-playground/navBar';
 
 function App() {
   return (
     <div className="App">
-      <Car />
+      <NavBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

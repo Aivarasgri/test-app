@@ -1,7 +1,7 @@
 import React from 'react';
 
-function car() {
+function navBar() {
     return <h2>Hi, I am Nav Bar</h2>;
   }
 
-  export default car;
+  export default navBar;
