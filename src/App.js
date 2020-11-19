@@ -1,20 +1,14 @@
-import React from 'react';
-import './App.css';
-import Footer from './my-git-playground/footer';
-import NavBar from './my-git-playground/navBar';
-import './testjs';
-
-const lol = () => {
-  var x = 45;
-  alert(x);
-}
+import React from "react";
+import "./App.css";
+import PokemonsList from "./my-git-playground/pokemon/PokemonsList";
+import Test from "./testjs";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Footer />
-      <lol />
+      <PokemonsList />
+
+      <Test path="/test" exact="true" />
     </div>
   );
 }

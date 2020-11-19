@@ -1,0 +1,83 @@
+/* pokeApi */
+
+.pokemon {
+    border: 1px solid black;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+    margin: 20px;
+    flex: 1 1 25%;
+    text-decoration: none;
+    color: black;
+}
+
+.pokemonImageWrapper {
+    display: flex;
+}
+
+.pokemonsListWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon > * {
+    margin: 10px 0;
+}
+
+.pokemon img {
+    width: 200px;
+}
+
+svg.favoriteIcon {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.isActive {
+    width: 40px;
+    height: 40px;
+    margin:  10px auto;
+    background-color: red;
+}
+
+.FavoriteIconColorFalse {
+    width: 40px;
+    height: 40px;
+    margin:  10px auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+table {
+    width: 50%;
+  }
+button.backButton  { 
+    float: left;
+    margin: 20px 0 0 20px
+ }
+
+.pokemonCardWrapper {
+   border: 2px solid black;
+   width: 50%;
+   margin: 0 auto;
+ }
+
+ table.abilitiesTable {
+    border-bottom: none;
+ }
+
+.sortAbilitiesButton {
+    width: 50%;
+    background-color: green;
+}
+
+.headerPrimary {
+    width: 100%;
+}
